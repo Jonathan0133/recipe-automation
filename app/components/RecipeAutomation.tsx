@@ -4,8 +4,8 @@
 
 import { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
 
 async function generateRecipe(title, apiKey) {
   if (!apiKey) throw new Error("Missing API Key");
